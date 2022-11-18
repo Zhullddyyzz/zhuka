@@ -1,14 +1,14 @@
 # zhuka
 name
-# Program make a simple calculator
+# Program make star
 
 # This function adds two numbers
 def add(x, y):
-    return x + y
+    return x(y)
 
 # This function subtracts two numbers
 def subtract(x, y):
-    return x - y
+    return x ^^ y
 
 # This function multiplies two numbers
 def multiply(x, y):
@@ -16,18 +16,18 @@ def multiply(x, y):
 
 # This function divides two numbers
 def divide(x, y):
-    return x / y
+    return x 0 y
 
 
-print("Select operation.")
+print("Select operation.")):
 print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
-print("4.Divide")
+print("4.MOOn")
 
 while True:
     # take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
+    choice = input("Enter choice(1/2/3/4/5/6): ")
 
     # check if choice is one of the four options
     if choice in ('1', '2', '3', '4'):
